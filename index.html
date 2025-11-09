@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hiren Chavada-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body class="theme-dark">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">HC</div>
+      <div>
+        <h2>Hiren Chavada</h2>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="HC Resume.pdf" download class="cv-btn">📄 Download CV</a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Hiren Chavda</span></h1>
+          <p>A passionate frontend developer who loves crafting modern & responsive user experiences.</p>
+          <div class="btn-group">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I am a Computer Engineering student studying in the 7th semester at Government EngineeringCollege, Rajkot. I am interested in coding, web development, and learning new technologies. I enjoybuilding projects and improving my skills. I am a quick learner, team player, and always ready to facenew challenges.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box"><h3>HTML</h3></div>
+        <div class="skill-box"><h3>CSS</h3></div>
+        <div class="skill-box"><h3>JavaScript</h3></div>
+        <div class="skill-box"><h3>React.js</h3></div>
+        <div class="skill-box"><h3>Tailwind CSS</h3></div>
+        <div class="skill-box"><h3>Java</h3></div>
+        <div class="skill-box"><h3>MySQL</h3></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">2022 - 2026</span>
+          <h3>B.E. Computer Engineering</h3>
+          <p>Government Engineering College, Rajkot</p>
+          <p>Current Semester: 7th</p>
+          <p>CGPA : 7.80</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2022 (12th Standard)</span>
+          <h3>Gujarat Secondary and Higher Secondary Education</h3>
+          <p>B.V.M, [Junagadh]</p>
+          <p>PR : 61.01%</p>
+          
+        </div>
+        <div class="timeline-item">
+          <span class="year">2020 (10th Standard)</span>
+          <h3>Gujarat Secondary and Higher Secondary Education</h3>
+          <p>B.V.M, [Junagadh]</p>
+          <p>PR : 69.53%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Technologies: HTML, CSS, JavaScript
+              Designed and developed a stylish personal portfolio website showcasing skills, projects, and contact details.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>Technologies: HTML, CSS, JavaScript(API)
+              Displays real-time weather using an API and dynamic backgrounds.</p>
+        </div>
+        <div class="project-card">
+          <h3>E-Commerce Website (Frontend Only)</h3>
+          <p>Technologies: HTML, CSS, JavaScript
+Built a multi-page e-commerce website featuring product listings, a shopping cart UI, and user login/sign-up pages.</p>
+        </div>
+        <div class="project-card">
+          <h3>Note App</h3>
+          <p>Technologies: React.js, Tailwind CSS
+Built a responsive note-taking application that allows users to create, and delete notes with a title and
+details. Newly added notes appear at the top (recent-first) for quick access, and deleted notes are instantly
+removed from the list.</p>
+        </div>
+        <div class="project-card">
+          <h3>Image Gallery App</h3>
+          <p>Technologies: React.js, Tailwind CSS, API
+Built a responsive image gallery application that fetches and displays images dynamically using a public
+API. Implemented pagination with “Previous” and “Next” buttons to navigate between pages. Integrated
+React state management to handle API data and maintain smooth transitions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-container">
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>📞 +91 9512657947</p>
+          <p>📧 chavdahiren757@gmail.com</p>
+          <p>🌐 github.com/hiren5757</p>
+          <p>🔗 www.linkedin.com/in/gecrcomp220200107021</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Hiren Chavda | Built with 💙 using HTML, CSS, and JS</p>
+    </footer>
+  </main>
+</body>
+</html>
